@@ -1,0 +1,88 @@
+.container {
+    width: 100%;
+    padding: 12px;
+
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.input_container {
+    width: 100%;
+    border: 1px solid #d3d3d356;
+    padding: 4px;
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+
+}
+
+.input {
+    flex: 1;
+    border: none;
+    height: 30px;
+    font-size: 16px;
+    padding: 0 8px;
+}
+
+.input:active {
+    border: none;
+}
+
+.container {
+    .options_list {
+        position: relative;
+        z-index: 100;
+        width: 100%;
+        max-height: 400px;
+        border-radius: 6px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        overflow: auto;
+
+        .option {
+            padding: 12px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 12px;
+
+            .option_value {
+                margin: 0;
+            }
+
+        }
+
+        .option:hover {
+            background-color: #d3d3d356;
+        }
+    }
+}
+
+.selected_values {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.selected_pill {
+    background-color: #d3d3d356;
+    padding: 4px 14px;
+    border-radius: 16px;
+    min-width: 25%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+}
+
+.character_image {
+    border-radius: 50%;
+}
+

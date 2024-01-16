@@ -1,0 +1,44 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.page_heading {
+    font-family: 'Roboto Mono', monospace;
+
+
+    .heading {
+        font-size: 64px;
+        font-weight: 700;
+    }
+
+    .dev_name {
+        font-size: 28px;
+        /* text-align: right; */
+    }
+}
+
+.component_container {
+    width: 60%;
+}
+
+.send_invite_button_container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send_invite_button {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 8px 24px;
+    border-radius: 6px;
+    border: none;
+    width: calc(100% - 24px);
+}
